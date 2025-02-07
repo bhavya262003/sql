@@ -2,7 +2,7 @@ Objective:
 1.	Explore the structure of the dataset by understanding the relationships between tables.
 2.	Formulate SQL queries to extract meaningful insights from the data.
 
-select * from list_of_orders
+'''select * from list_of_orders'''
  ![alt text](image-3.png)
 
 select * from order_details
