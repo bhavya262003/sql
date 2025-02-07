@@ -1,6 +1,6 @@
 Objective:
 1.	Explore the structure of the dataset by understanding the relationships between tables.
-2.	Formulate SQL queries to extract meaningful insights from the data.
+2.	Formulate '''SQL queries''' to extract meaningful insights from the data.
 
 '''
 select * from list_of_orders
