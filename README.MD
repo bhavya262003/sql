@@ -3,6 +3,8 @@ Objective:
 2.	Formulate SQL queries to extract meaningful insights from the data.
 
 '''select * from list_of_orders'''
+
+
  ![alt text](image-3.png)
 
 select * from order_details
