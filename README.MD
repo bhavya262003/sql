@@ -35,6 +35,9 @@ Customer Analysis:
 
 '''
 Select distinct count(customername) as Total_no_of_customers from list_of_orders
+'''
+
+
 ![alt text](image-7.png)
 '''
 
@@ -47,7 +50,6 @@ group by state
 order by no_of_customers desc
 limit 5
 '''
-
 
 ![alt text](image-8.png)
 
