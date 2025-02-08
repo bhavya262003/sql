@@ -13,7 +13,6 @@ select * from list_of_orders
 ```
 select * from order_details
 ```
-
 ![alt text](image-4.png)
 
 ```
@@ -52,11 +51,24 @@ group by state
 order by no_of_customers desc
 limit 5
 ```
+<<<<<<< HEAD
 ![alt text](image-8.png)
 
+=======
+
+![alt text](image-8.png)
+
+• Calculate the average order value for each customer.
+
+```
+>>>>>>> 651711eac47d33485491697c3731d1eba4985662
 Select customername, round(avg(amount),0) as Avg_Order_Value from
 (select l.order_id, l.customername, o.amount from list_of_orders l
 join order_details o on l.order_id = o.order_id) f
 group by customername
+<<<<<<< HEAD
 
 ![alt text](image-9.png)
+=======
+```
+>>>>>>> 651711eac47d33485491697c3731d1eba4985662
